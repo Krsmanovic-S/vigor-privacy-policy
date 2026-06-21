@@ -30,7 +30,11 @@ Vigor uses Android's automatic backup feature to back up your app data to your p
 To delete backed up data, go to your Google Drive settings and remove the Vigor app backup.
 
 ## Permissions
-Vigor does not request any special permissions such as camera, microphone, location, or contacts access.
+Vigor requests the following permissions:
+
+- **Notifications** - Used to display a persistent notification while a workout is active. This keeps the app running in the background so rest timers and sounds work correctly when your phone is locked or the app is minimized. This notification does not collect or transmit any data.
+
+Vigor does not request access to camera, microphone, location, or contacts.
 
 ## Third Party Services
 Vigor uses Google Play Billing for optional in-app tips. These transactions are handled entirely by Google Play and are subject to Google's privacy policy. The developer receives no personal information from these transactions beyond the payment itself.
